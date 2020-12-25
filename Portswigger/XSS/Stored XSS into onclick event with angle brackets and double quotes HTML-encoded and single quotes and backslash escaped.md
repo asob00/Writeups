@@ -30,7 +30,7 @@ Next thing to do was obviously inserting alert into the code.
 **Javascript code:**
 `var tracker={track(){}};tracker.track('my-url' );`
 
-To insert alert al I had to do was close string which contained my url, close parentheses, insert semicolon and my alert(1), then comment out the rest :)
+To insert alert all I had to do was close string which contained my url, close parentheses, insert semicolon and my alert(1), then comment out the rest :)
 
 ## Final payload looks like this:
 - **Comment:** a
