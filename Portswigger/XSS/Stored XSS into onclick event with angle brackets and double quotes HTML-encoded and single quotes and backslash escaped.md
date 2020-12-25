@@ -32,8 +32,8 @@ Next thing to do was obviously inserting alert into the code.
 
 To insert alert al I had to do was close string which contained my url, close parentheses, insert semicolon and my alert(1), then comment out the rest :)
 
-Final payload looks like this:
-**Comment:** a
-**Name:** a
-**Email:** a@a
-**Website:** http://&#x27); alert(1); //
+## Final payload looks like this:
+- **Comment:** a
+- **Name:** a
+- **Email:** a@a
+- **Website:** http://&#x27); alert(1); //
