@@ -21,7 +21,7 @@ Onclick event of `<a>` parameter contains some tracking code. Inside the code my
 I tried to insert some "forbidden" characters not really hoping for anything and as expected nothing really happened.
 Next I tried using different encodings. If encoded string enters javascript in unencoded form I could bypass escaping colons or backslashes. 
 
-After some time of trial and error i found that UTF-8 encoded string will work. 
+After some time of trial and error i found that HTML encoded string will work. 
 Inserted payload looked like `http://&#x27 aaa`.
 
 In Firefox inspector `&#x27` showed up as colon so I was close to solving the challenge. 
